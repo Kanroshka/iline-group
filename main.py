@@ -35,7 +35,7 @@ def update_values(spreadsheet_id: str, cell: str, data: str) -> None:
 
 if __name__ == "__main__":
     CREDENTIALS_FILE = "credentials.json"
-    spreadsheet_id = "1maH6iaCrTBVE9rHPkLkEU4UPEnkRwsiLvlI3ri8en0Q"
+    spreadsheet_id = "spreadsheet_id"
     service = getting_an_access_copy("credentials.json")
     data = accessing_the_api(url="")
 
