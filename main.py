@@ -20,6 +20,7 @@ def getting_an_access_copy(credentials_file: str):
 
 
 def update_values(spreadsheet_id: str, cell: str, data: str) -> None:
+    """Записывает данные в определенную ячейку"""
     service.spreadsheets().values().batchUpdate(
         spreadsheetId=spreadsheet_id,
         body={
